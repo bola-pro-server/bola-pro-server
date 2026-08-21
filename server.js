@@ -1,4 +1,3 @@
-
 const express = require("express");
 
 const app = express();
@@ -12,5 +11,4 @@ app.get("/", (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`⚽ Bola Pro rodando na porta ${PORT}`);
-});node server.
-  jsnpm install express
+});
